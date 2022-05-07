@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body{
+        color: aliceblue;
+        background-color: black;
+    }
+
+    button{
+        background-color: grey;
+        font-weight: bold;
+        height: 25px;
+    }
+
+</style>
+<body>
+    <div id="container">
+    <!-- <div id="header" style="display: flex; gap: 50px;">
+        <div id="header-left" style="display: flex;">
+            <div><p>Midnite Saturday | </p></div>
+            <div style="color: yellow;"><p>SAN FRANCISCO CHANNEL 29</p></div>
+        </div>
+
+        <div> <h1>Video Vision</h1></div>
+
+        <div><p>Months of April & May 2008</p></div>
+    </div> -->
+
+    <!-- <div id="main" style="text-align: center;">
+        <div id="main-left" style="width: 300px; 
+        height: 200px;
+        border: 3px solid white;
+        padding: 5px;
+        margin: 5px;">
+             
+           <div id="main-left1">
+               <div><h3>video vision :<span style="color: yellow;">music videos</span> :</h3></div>
+           </div>
+
+           <div id="main-left2">
+               <h2>COACHELLA</h2>
+               <P>April 25th - 27th, 2008 India, CA</P>
+           </div>
+           <div id="main-left3">
+               <img src="http://videovision.org/images/home/videovision_home_apr2k8.gif">
+           </div>
+
+
+
+            
+        </div>
+    </div> -->
+
+    <div id="main"> <img src="http://videovision.org/images/home/videovision_home_apr2k8.gif">
+
+    </div>
+
+    <div id="main2" style="display: flex;justify-content: center; margin-top: 15px;">
+    <div><button onclick="music()">music videos</button></div>
+    <div><button onclick="interviews()"> interviews</button></div>
+    <div><button>reviews</button></div> 
+    <div><button>resources</button></div>
+    <div><button>library</button></div>
+    <div><button>playlist</button></div>
+    <div><button>contact</button></div>
+
+    </div>
+</div>
+
+</body>
+
+<script>
+    function music(){
+
+        window.location.href = "musicVideos.html";
+    }
+
+    function interviews(){
+
+window.location.href = "interviews.html";
+}
+</script>
+
+</html>

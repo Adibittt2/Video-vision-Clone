@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicVideos</title>
+</head>
+
+<style>
+
+    body{
+        background-color: black;
+        color: white;
+    }
+
+    #container{
+        width: 60%;
+        /* height: 200px; */
+    }
+    
+ #main3-left button{
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+</style>
+
+<body>
+    <div id="container">
+    <div id="header" style="display:flex">
+        <img src="http://videovision.org/images/vv_header-musicvideos.gif">
+        <img src="http://videovision.org/images/topnav_musicvideos.gif">
+    </div>
+
+    <div id="main"> 
+
+        <div id="main1">
+
+        <div id="date" style="display: flex; justify-content: right;"></div>
+    
+    </div>
+        <div id="main2" style="display: flex; justify-content: center;">
+
+            <div>
+                <h2>video vision : <span style="color: yellow;">streaming videos </span> : </h2>
+            </div>
+        </div>
+
+        <div id="main3" style="display: flex; gap: 50px; height: 350px;">
+
+            <div id="main3-left">
+                
+    <div><button >music_videos</button></div>
+    <div><button> inter_views</button></div>
+    <div><button>re_views</button></div> 
+    <div><button>re_sources</button></div>
+    <div><button>lib_rary</button></div>
+    <div><button>play_list</button></div>
+    <div><button>con_tact</button></div>
+
+            </div>
+
+
+            <div id="main3-right" style=" height: auto; overflow-y: auto; overflow-x: hidden;">
+
+                <div id="main3-right1" style="display: flex; gap: 20px;">
+
+                    <div><a>Urban</a>
+                    <p>Rap,Hip-Hop,Soul</p></div>
+
+                    <div><a>Dance</a>
+                        <p>Electronica,Trance, D & B</p></div>
+
+                        <div><a>Rock</a>
+                            <p>Punk,Indie,Metal,Alt-Country</p></div>
+                </div>
+
+                <div id="main3-right2" style="display: flex; gap: 50px; margin-bottom: 50px;">
+                    <div id="main3-right2-left">
+                        <img src="http://videovision.org/images/stream_stills/video_dance-still.jpg">
+                    </div>
+
+                    <div id="main3-right2-right">
+                        <h4>Monkey Mark</h4>
+                        <p style="margin-top: -20px; margin-bottom: 50px;">Information Contraband</p>
+                   
+                   
+                        <h4>Aphrodite</h4>
+                        <p style="margin-top: -20px;">Hoochie</p>
+
+                        <h4>Paul Oakenfold</h4>
+                        <p style="margin-top: -20px;">Ready Steady Go</p>
+                   
+                    </div>
+                    
+                </div>
+
+
+                <div id="main3-right3" style="display: flex; gap: 50px; margin-bottom: 50px;">
+                    <div id="main3-right3-left">
+                        <img src="http://videovision.org/images/stream_stills/video_rock-still.jpg">
+                    </div>
+
+                    <div id="main3-right3-right">
+                        <h4>the (International) Noise Conspiracy</h4>
+                        <p style="margin-top: -20px; margin-bottom: 50px;">Capitalism Stole My Virginity</p>
+                   
+                   
+                        <h4>Beulah</h4>
+                        <p style="margin-top: -20px;">Gene Autrey</p>
+
+                        <h4>Cato Salsa Experience</h4>
+                        <p style="margin-top: -20px;">Cato Salsa Experience</p>
+                   
+                    </div>
+                    
+                </div>
+
+                <div id="main3-right4" style="display: flex; gap: 50px;">
+                    <div id="main3-right4-left">
+                        <img src="http://videovision.org/images/stream_stills/video_urban-still.jpg">
+                    </div>
+
+                    <div id="main3-right4-right">
+                        <h4>Tech N9ne</h4>
+                        <p style="margin-top: -20px; margin-bottom: 50px;">Slacker</p>
+                   
+                   
+                        <h4>Skillz</h4>
+                        <p style="margin-top: -20px;">Crew Deep</p>
+
+                        <h4>Knoc-Turn'Al</h4>
+                        <p style="margin-top: -20px;">Muzik</p>
+                   
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="footer" style="margin-top: 20px;">
+
+        <div style="display: flex;">
+                
+            <div><button onclick="music()">music videos</button></div>
+            <div><button onclick="interviews()"> interviews</button></div>
+            <div><button>reviews</button></div> 
+            <div><button>resources</button></div>
+            <div><button>library</button></div>
+            <div><button>playlist</button></div>
+            <div><button>contact</button></div>
+            <div><button>contests</button></div>
+            <div><button>services</button></div>
+            <div><button>home</button></div>
+        
+                    </div>
+
+
+      <div>
+          <p>&copy; 1999,2000,2001,2002,2003,2004,2005 Evans Media Group, Inc.</p>
+      </div>              
+        
+    </div>
+
+    
+</div>
+
+</body>
+
+<script>
+
+ var dt = document.getElementById("date");
+
+ dt.innerHTML = new Date();
+
+
+ function music(){
+
+window.location.href = "musicVideos.html";
+}
+
+function interviews(){
+
+window.location.href = "interviews.html";
+}
+
+</script>
+</html>

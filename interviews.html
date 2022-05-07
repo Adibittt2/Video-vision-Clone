@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interviews</title>
+</head>
+
+<style>
+
+    body{
+        background-color: black;
+        color: white;
+    }
+
+    #container{
+        width: 60%;
+        /* height: 200px; */
+    }
+    
+ #main3-left button{
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+td{
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+#footer button{
+    font-size: 10px;
+    background-color: black;
+    color: white;
+}
+
+</style>
+
+<body>
+    <div id="container">
+    <div id="header" style="display:flex">
+        <img src="http://videovision.org/images/vv_header-interviews.gif">
+        <img src="http://videovision.org/images/topnav_interviews.gif">
+    </div>
+
+    <div id="main"> 
+
+        <div id="main1">
+
+        <div id="date" style="display: flex; justify-content: right;"></div>
+    
+    </div>
+        <div id="main2" style="display: flex; justify-content: center;">
+
+            <div>
+                <h2>video vision : <span style="color: yellow;">exclusive interview </span> : </h2>
+            </div>
+        </div>
+
+        <div id="main3" style="display: flex; gap: 50px; height: 350px;">
+
+            <div id="main3-left">
+                
+    <div><button >music_videos</button></div>
+    <div><button> inter_views</button></div>
+    <div><button>re_views</button></div> 
+    <div><button>re_sources</button></div>
+    <div><button>lib_rary</button></div>
+    <div><button>play_list</button></div>
+    <div><button>con_tact</button></div>
+
+            </div>
+
+
+            <div id="main3-right" style=" height: auto; overflow-y: auto; overflow-x: hidden;">
+
+                <div id="main3-right1" style="display: flex; gap: 20px;">
+
+                <div>
+                    <table>
+                        <tr style="color: grey;">
+                            <td>2nd II None</td>
+                            <td>Marcy Playground</td>
+                        </tr>
+
+                        <tr>
+                            <td> A3*</td>
+                            <td> Mojave 3*</td>
+                        </tr>
+                        <tr>
+                            <td>AllFrumThal*</td>
+                            <td>Monifah*</td>
+                        </tr>
+                        <tr>
+                            <td>Amyth*</td>
+                            <td>N.E.R.D.*</td>
+                        </tr>
+                        <tr>
+                            <td>Ant Banks*</td>
+                            <td>O*</td>
+                        </tr>
+                        <tr>
+                            <td>Bad Azz*</td>
+                            <td>Oliver</td>
+                        </tr>
+                        <tr>
+                            <td>Bernard Butler</td>
+                            <td>Organized Noize*</td>
+                        </tr>
+                        <tr>
+                            <td>Black Eyed Peas*</td>
+                            <td>Ours*</td>
+                        </tr>
+                        <tr>
+                            <td>Black Rebel Motorcycle Club*</td>
+                            <td>Outkast</td>
+                        </tr>
+                        <tr>
+                            <td>Blinker The Start</td>
+                            <td>Phajja*</td>
+                        </tr>
+                        <tr>
+                            <td>Bugs*</td>
+                            <td>Pink</td>
+                        </tr>
+
+                        <tr>
+                            <td>Cam'ron*</td>
+                            <td>Prince Paul</td>
+                        </tr>
+                        <tr>
+                            <td>Cato Salsa Experience</td>
+                            <td>Rah Diggah</td>
+                        </tr>
+                        <tr>
+                            <td>Cherokee</td>
+                            <td>Rhian Benson</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Chevelle</td>
+                            <td>Sixteen Horsepower</td>
+                        </tr>
+                        
+                        
+                        
+                    </table>
+                </div>
+
+                </div>
+
+          
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="footer" style="margin-top: 20px; margin-left: 80px;">
+
+        <div style="display:flex; justify-content: center;">
+           <img src="http://videovision.org/images/banners/468electricsix.jpg"> 
+        </div>
+        <div style="display: flex; padding-top: 10px;">
+                
+            <div><button onclick="music()">music videos</button></div>
+            <div><button onclick="interviews()"> interviews</button></div>
+            <div><button>reviews</button></div> 
+            <div><button>resources</button></div>
+            <div><button>library</button></div>
+            <div><button>playlist</button></div>
+            <div><button>contact</button></div>
+            <div><button>contests</button></div>
+            <div><button>services</button></div>
+            <div><button>home</button></div>
+        
+                    </div>
+
+
+      <div>
+          <p>&copy; 1999,2000,2001,2002,2003,2004,2005 Evans Media Group, Inc.</p>
+      </div>              
+        
+    </div>
+
+    
+</div>
+
+</body>
+
+<script>
+
+ var dt = document.getElementById("date");
+
+ dt.innerHTML = new Date();
+
+ function music(){
+
+window.location.href = "musicVideos.html";
+}
+
+function interviews(){
+
+window.location.href = "interviews.html";
+}
+
+</script>
+</html>
